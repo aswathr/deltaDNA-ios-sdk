@@ -444,60 +444,8 @@ static NSString *const DD_EVENT_NEW_SESSION = @"DDNASDKNewSession";
 
 - (void)requestSessionConfiguration:(DDNAUserManager *)userManager
 {
-    DDNAEngagement *configEngagement = [DDNAEngagement engagementWithDecisionPoint:@"config"];
-    configEngagement.flavour = @"internal";
-    [configEngagement setParam:[NSNumber numberWithUnsignedInteger:userManager.msSinceFirstSession]  forKey:@"timeSinceFirstSession"];
-    [configEngagement setParam:[NSNumber numberWithUnsignedInteger:userManager.msSinceLastSession] forKey:@"timeSinceLastSession"];
-    [self requestEngagement:configEngagement completionHandler:^(NSDictionary *response, NSInteger statusCode, NSError *error) {
-        if (response && response[@"parameters"]) {
-            NSDictionary *parameters = response[@"parameters"];
-            self.eventWhitelist = parameters[@"eventsWhitelist"] ? [NSSet setWithArray:parameters[@"eventsWhitelist"]] : nil;
-            self.decisionPointWhitelist = parameters[@"dpWhitelist"] ? [NSSet setWithArray:parameters[@"dpWhitelist"]] : nil;
-            if (parameters[@"imageCache"]) {
-                self.imageCacheList = [NSSet setWithArray:parameters[@"imageCache"]];
-            }
-            if (parameters[@"triggers"]) {
-                NSMutableArray<DDNAEventTrigger *> *triggers = [NSMutableArray<DDNAEventTrigger *> array];
-                for (NSDictionary *triggerDict in parameters[@"triggers"]) {
-                    DDNAEventTrigger *t = [[DDNAEventTrigger alloc] initWithDictionary:triggerDict];
-                    if (t != nil) {
-                        [triggers addObject:t];
-                        
-                        if ([[t response][@"parameters"][@"ddnaIsPersistent"] boolValue]) {
-                            [self.actionStore setParameters:[t response][@"parameters"] forTrigger:t];
-                        }
-                    }
-                }
-                NSSortDescriptor *sortName = [NSSortDescriptor sortDescriptorWithKey:@"eventName" ascending:NO];
-                NSSortDescriptor *sortPriority = [NSSortDescriptor sortDescriptorWithKey:@"priority" ascending:NO];
-                NSArray<DDNAEventTrigger *> *sorted = [triggers sortedArrayUsingDescriptors:@[sortName, sortPriority]];
-                self.eventTriggers = [NSOrderedSet orderedSetWithArray:sorted];
-            }
-            
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"DDNASDKSessionConfig" object:self.sdk userInfo:@{@"config": response}];
-            
-            if (response[@"isCachedResponse"] && [response[@"isCachedResponse"] boolValue]) {
-                DDNALogDebug(@"Updated session configuration from local cache.");
-            } else {
-                DDNALogDebug(@"Successfully updated session configuration.");
-            }
-            if ([self.sdk.delegate respondsToSelector:@selector(didConfigureSessionWithCache:)]) {
-                [self.sdk.delegate didConfigureSessionWithCache:response[@"isCachedResponse"] && [response[@"isCachedResponse"] boolValue]];
-            }
-            
-            [self downloadImageAssets];
-            
-        } else {
-            DDNALogDebug(@"Failed to retrieve session configuration.");
-            // notify caller and let them retry later
-            if ([self.sdk.delegate respondsToSelector:@selector(didFailToConfigureSessionWithError:)]) {
-                [self.sdk.delegate didFailToConfigureSessionWithError:error];
-            }
-        }
-        
-        // Once we're started, & session configuration has been received or failed then send default events.
-        [self triggerDefaultEvents:self.sendNewPlayerEvent];
-    }];
+    self.eventWhitelist = nil;
+    [self triggerDefaultEvents:self.sendNewPlayerEvent];
 }
 
 - (void)downloadImageAssets
