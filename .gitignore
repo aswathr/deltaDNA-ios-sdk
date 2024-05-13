@@ -1,6 +1,12 @@
 # Xcode
 #
-build/
+
+!build/
+build/*
+!build/Products
+build/Products/*
+!build/Products/XCFramework
+
 archives/
 *.pbxuser
 !default.pbxuser

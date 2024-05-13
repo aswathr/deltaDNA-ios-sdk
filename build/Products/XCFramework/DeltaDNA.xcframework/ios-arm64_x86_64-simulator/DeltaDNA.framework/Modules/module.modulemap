@@ -1,0 +1,10 @@
+framework module DeltaDNA {
+    umbrella header "DeltaDNA.h"
+    export *
+    module * { export * }
+}
+
+module DeltaDNA.Swift {
+  header "DeltaDNA-Swift.h"
+  requires objc
+}

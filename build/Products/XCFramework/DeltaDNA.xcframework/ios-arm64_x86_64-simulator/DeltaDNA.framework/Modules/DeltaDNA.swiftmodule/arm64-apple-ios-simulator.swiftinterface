@@ -1,0 +1,87 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DeltaDNA
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import AppTrackingTransparency
+@_exported import DeltaDNA
+import Foundation
+import Network
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum NetworkType : Swift.String, Swift.CaseIterable {
+  case unknown
+  case celullar
+  case wifi
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [DeltaDNA.NetworkType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [DeltaDNA.NetworkType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class DDNAEventTriggeredCampaignMetricStore : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: DeltaDNA.DDNAEventTriggeredCampaignMetricStore
+  @objc public init(persistenceFilePath: Foundation.URL = URL(fileURLWithPath: DDNASettings.getPrivateSettingsDirectoryPath()).appendingPathComponent("ddnaETCCountStore"))
+  @objc public func incrementETCExecutionCount(forVariantId variantId: Swift.UInt)
+  public func getETCExecutionCount(variantId: Swift.UInt) -> Swift.Int
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class DDNAExecutionRepeatTriggerCondition : ObjectiveC.NSObject, DeltaDNA.DDNATriggerCondition {
+  @objc public func canExecute() -> Swift.Bool
+  @objc deinit
+}
+@objc public enum ConsentStatus : Swift.Int {
+  case unknown = 0, notRequired, requiredButUnchecked, consentGiven, consentDenied
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DDNAConsentTracker : ObjectiveC.NSObject {
+  @objc public var piplUseStatus: DeltaDNA.ConsentStatus
+  @objc public var piplExportStatus: DeltaDNA.ConsentStatus
+  @objc convenience override dynamic public init()
+  @objc public func hasCheckedForConsent() -> Swift.Bool
+  @objc public func isPiplConsentRequired(callback: @escaping (Swift.Bool, (any Swift.Error)?) -> ())
+  @objc public func setPiplUseConsent(_ isConsentGiven: Swift.Bool)
+  @objc public func setPiplExportConsent(_ isConsentGiven: Swift.Bool)
+  @objc public func allConsentsAreMet() -> Swift.Bool
+  @objc public func isConsentDenied() -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 12.0, *)
+public class DDNAPinpointer : ObjectiveC.NSObject {
+  @objc public static let shared: DeltaDNA.DDNAPinpointer
+  @objc deinit
+  @objc public func createSignalTrackingSessionEvent() -> DeltaDNA.DDNAEvent
+  @objc public func createSignalTrackingInstallEvent() -> DeltaDNA.DDNAEvent
+  @objc public func createSignalTrackingPurchaseEvent(realCurrencyAmount: Foundation.NSNumber, realCurrencyType: Foundation.NSString, transactionID: Foundation.NSString) -> DeltaDNA.DDNAEvent
+}
+@_hasMissingDesignatedInitializers @objc public class GeoIpNetworkClient : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class DDNAExecutionCountTriggerCondition : ObjectiveC.NSObject, DeltaDNA.DDNATriggerCondition {
+  @objc public func canExecute() -> Swift.Bool
+  @objc deinit
+}
+@objc public protocol DDNATriggerCondition {
+  @objc func canExecute() -> Swift.Bool
+}
+@objc public class DDNATriggerConditionParser : ObjectiveC.NSObject {
+  @objc public init(metricStore: DeltaDNA.DDNAEventTriggeredCampaignMetricStore, variantId: Swift.UInt)
+  @objc public func parse(fromJSON json: Foundation.NSDictionary?) -> [any DeltaDNA.DDNATriggerCondition]
+  @objc deinit
+}
+extension DeltaDNA.NetworkType : Swift.Equatable {}
+extension DeltaDNA.NetworkType : Swift.Hashable {}
+extension DeltaDNA.NetworkType : Swift.RawRepresentable {}
+extension DeltaDNA.ConsentStatus : Swift.Equatable {}
+extension DeltaDNA.ConsentStatus : Swift.Hashable {}
+extension DeltaDNA.ConsentStatus : Swift.RawRepresentable {}

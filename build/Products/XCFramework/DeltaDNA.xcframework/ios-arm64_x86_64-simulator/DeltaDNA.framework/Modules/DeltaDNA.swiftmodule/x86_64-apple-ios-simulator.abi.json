@@ -1,0 +1,2620 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkType",
+        "printedName": "NetworkType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.NetworkType.Type) -> DeltaDNA.NetworkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkType",
+                    "printedName": "DeltaDNA.NetworkType",
+                    "usr": "s:8DeltaDNA11NetworkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.NetworkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkType",
+                        "printedName": "DeltaDNA.NetworkType",
+                        "usr": "s:8DeltaDNA11NetworkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8DeltaDNA11NetworkTypeO7unknownyA2CmF",
+            "mangledName": "$s8DeltaDNA11NetworkTypeO7unknownyA2CmF",
+            "moduleName": "DeltaDNA"
+          },
+          {
+            "kind": "Var",
+            "name": "celullar",
+            "printedName": "celullar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.NetworkType.Type) -> DeltaDNA.NetworkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkType",
+                    "printedName": "DeltaDNA.NetworkType",
+                    "usr": "s:8DeltaDNA11NetworkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.NetworkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkType",
+                        "printedName": "DeltaDNA.NetworkType",
+                        "usr": "s:8DeltaDNA11NetworkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8DeltaDNA11NetworkTypeO8celullaryA2CmF",
+            "mangledName": "$s8DeltaDNA11NetworkTypeO8celullaryA2CmF",
+            "moduleName": "DeltaDNA"
+          },
+          {
+            "kind": "Var",
+            "name": "wifi",
+            "printedName": "wifi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.NetworkType.Type) -> DeltaDNA.NetworkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkType",
+                    "printedName": "DeltaDNA.NetworkType",
+                    "usr": "s:8DeltaDNA11NetworkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.NetworkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkType",
+                        "printedName": "DeltaDNA.NetworkType",
+                        "usr": "s:8DeltaDNA11NetworkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8DeltaDNA11NetworkTypeO4wifiyA2CmF",
+            "mangledName": "$s8DeltaDNA11NetworkTypeO4wifiyA2CmF",
+            "moduleName": "DeltaDNA"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DeltaDNA.NetworkType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkType",
+                    "printedName": "DeltaDNA.NetworkType",
+                    "usr": "s:8DeltaDNA11NetworkTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8DeltaDNA11NetworkTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8DeltaDNA11NetworkTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "DeltaDNA",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8DeltaDNA11NetworkTypeO8rawValueSSvp",
+            "mangledName": "$s8DeltaDNA11NetworkTypeO8rawValueSSvp",
+            "moduleName": "DeltaDNA",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8DeltaDNA11NetworkTypeO8rawValueSSvg",
+                "mangledName": "$s8DeltaDNA11NetworkTypeO8rawValueSSvg",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DeltaDNA.NetworkType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkType",
+                    "printedName": "DeltaDNA.NetworkType",
+                    "usr": "s:8DeltaDNA11NetworkTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8DeltaDNA11NetworkTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s8DeltaDNA11NetworkTypeO8allCasesSayACGvpZ",
+            "moduleName": "DeltaDNA",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DeltaDNA.NetworkType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkType",
+                        "printedName": "DeltaDNA.NetworkType",
+                        "usr": "s:8DeltaDNA11NetworkTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8DeltaDNA11NetworkTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s8DeltaDNA11NetworkTypeO8allCasesSayACGvgZ",
+                "moduleName": "DeltaDNA",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8DeltaDNA11NetworkTypeO",
+        "mangledName": "$s8DeltaDNA11NetworkTypeO",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DeltaDNA.NetworkType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkType",
+                        "printedName": "DeltaDNA.NetworkType",
+                        "usr": "s:8DeltaDNA11NetworkTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDNAEventTriggeredCampaignMetricStore",
+        "printedName": "DDNAEventTriggeredCampaignMetricStore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAEventTriggeredCampaignMetricStore",
+                "printedName": "DeltaDNA.DDNAEventTriggeredCampaignMetricStore",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore(cpy)sharedInstance",
+            "mangledName": "$s8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreC14sharedInstanceACvpZ",
+            "moduleName": "DeltaDNA",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DDNAEventTriggeredCampaignMetricStore",
+                    "printedName": "DeltaDNA.DDNAEventTriggeredCampaignMetricStore",
+                    "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore(cm)sharedInstance",
+                "mangledName": "$s8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreC14sharedInstanceACvgZ",
+                "moduleName": "DeltaDNA",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(persistenceFilePath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAEventTriggeredCampaignMetricStore",
+                "printedName": "DeltaDNA.DDNAEventTriggeredCampaignMetricStore",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore(im)initWithPersistenceFilePath:",
+            "mangledName": "$s8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreC19persistenceFilePathAC10Foundation3URLV_tcfc",
+            "moduleName": "DeltaDNA",
+            "objc_name": "initWithPersistenceFilePath:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "incrementETCExecutionCount",
+            "printedName": "incrementETCExecutionCount(forVariantId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore(im)incrementETCExecutionCountForVariantId:",
+            "mangledName": "$s8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreC26incrementETCExecutionCount12forVariantIdySu_tF",
+            "moduleName": "DeltaDNA",
+            "objc_name": "incrementETCExecutionCountForVariantId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getETCExecutionCount",
+            "printedName": "getETCExecutionCount(variantId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreC20getETCExecutionCount9variantIdSiSu_tF",
+            "mangledName": "$s8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreC20getETCExecutionCount9variantIdSiSu_tF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAEventTriggeredCampaignMetricStore",
+                "printedName": "DeltaDNA.DDNAEventTriggeredCampaignMetricStore",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore(im)init",
+            "mangledName": "$s8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreCACycfc",
+            "moduleName": "DeltaDNA",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore",
+        "mangledName": "$s8DeltaDNA37DDNAEventTriggeredCampaignMetricStoreC",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDNAExecutionRepeatTriggerCondition",
+        "printedName": "DDNAExecutionRepeatTriggerCondition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "canExecute",
+            "printedName": "canExecute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionRepeatTriggerCondition(im)canExecute",
+            "mangledName": "$s8DeltaDNA35DDNAExecutionRepeatTriggerConditionC10canExecuteSbyF",
+            "moduleName": "DeltaDNA",
+            "objc_name": "canExecute",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAExecutionRepeatTriggerCondition",
+                "printedName": "DeltaDNA.DDNAExecutionRepeatTriggerCondition",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionRepeatTriggerCondition"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionRepeatTriggerCondition(im)init",
+            "mangledName": "$s8DeltaDNA35DDNAExecutionRepeatTriggerConditionCACycfc",
+            "moduleName": "DeltaDNA",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionRepeatTriggerCondition",
+        "mangledName": "$s8DeltaDNA35DDNAExecutionRepeatTriggerConditionC",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DDNATriggerCondition",
+            "printedName": "DDNATriggerCondition",
+            "usr": "c:@M@DeltaDNA@objc(pl)DDNATriggerCondition",
+            "mangledName": "$s8DeltaDNA20DDNATriggerConditionP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentStatus",
+        "printedName": "ConsentStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.ConsentStatus.Type) -> DeltaDNA.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "DeltaDNA.ConsentStatus",
+                        "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DeltaDNA@E@ConsentStatus@ConsentStatusUnknown",
+            "mangledName": "$s8DeltaDNA13ConsentStatusO7unknownyA2CmF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "notRequired",
+            "printedName": "notRequired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.ConsentStatus.Type) -> DeltaDNA.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "DeltaDNA.ConsentStatus",
+                        "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DeltaDNA@E@ConsentStatus@ConsentStatusNotRequired",
+            "mangledName": "$s8DeltaDNA13ConsentStatusO11notRequiredyA2CmF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "requiredButUnchecked",
+            "printedName": "requiredButUnchecked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.ConsentStatus.Type) -> DeltaDNA.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "DeltaDNA.ConsentStatus",
+                        "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DeltaDNA@E@ConsentStatus@ConsentStatusRequiredButUnchecked",
+            "mangledName": "$s8DeltaDNA13ConsentStatusO20requiredButUncheckedyA2CmF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "consentGiven",
+            "printedName": "consentGiven",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.ConsentStatus.Type) -> DeltaDNA.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "DeltaDNA.ConsentStatus",
+                        "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DeltaDNA@E@ConsentStatus@ConsentStatusConsentGiven",
+            "mangledName": "$s8DeltaDNA13ConsentStatusO12consentGivenyA2CmF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "consentDenied",
+            "printedName": "consentDenied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeltaDNA.ConsentStatus.Type) -> DeltaDNA.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeltaDNA.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "DeltaDNA.ConsentStatus",
+                        "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DeltaDNA@E@ConsentStatus@ConsentStatusConsentDenied",
+            "mangledName": "$s8DeltaDNA13ConsentStatusO13consentDeniedyA2CmF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DeltaDNA.ConsentStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8DeltaDNA13ConsentStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8DeltaDNA13ConsentStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "DeltaDNA",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8DeltaDNA13ConsentStatusO8rawValueSivp",
+            "mangledName": "$s8DeltaDNA13ConsentStatusO8rawValueSivp",
+            "moduleName": "DeltaDNA",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8DeltaDNA13ConsentStatusO8rawValueSivg",
+                "mangledName": "$s8DeltaDNA13ConsentStatusO8rawValueSivg",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DeltaDNA@E@ConsentStatus",
+        "mangledName": "$s8DeltaDNA13ConsentStatusO",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDNAConsentTracker",
+        "printedName": "DDNAConsentTracker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "piplUseStatus",
+            "printedName": "piplUseStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentStatus",
+                "printedName": "DeltaDNA.ConsentStatus",
+                "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(py)piplUseStatus",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC13piplUseStatusAA07ConsentG0Ovp",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)piplUseStatus",
+                "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC13piplUseStatusAA07ConsentG0Ovg",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)setPiplUseStatus:",
+                "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC13piplUseStatusAA07ConsentG0Ovs",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8DeltaDNA18DDNAConsentTrackerC13piplUseStatusAA07ConsentG0OvM",
+                "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC13piplUseStatusAA07ConsentG0OvM",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "piplExportStatus",
+            "printedName": "piplExportStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentStatus",
+                "printedName": "DeltaDNA.ConsentStatus",
+                "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(py)piplExportStatus",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC16piplExportStatusAA07ConsentG0Ovp",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)piplExportStatus",
+                "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC16piplExportStatusAA07ConsentG0Ovg",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "DeltaDNA.ConsentStatus",
+                    "usr": "c:@M@DeltaDNA@E@ConsentStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)setPiplExportStatus:",
+                "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC16piplExportStatusAA07ConsentG0Ovs",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8DeltaDNA18DDNAConsentTrackerC16piplExportStatusAA07ConsentG0OvM",
+                "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC16piplExportStatusAA07ConsentG0OvM",
+                "moduleName": "DeltaDNA",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAConsentTracker",
+                "printedName": "DeltaDNA.DDNAConsentTracker",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)init",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerCACycfc",
+            "moduleName": "DeltaDNA",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "hasCheckedForConsent",
+            "printedName": "hasCheckedForConsent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)hasCheckedForConsent",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC20hasCheckedForConsentSbyF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPiplConsentRequired",
+            "printedName": "isPiplConsentRequired(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)isPiplConsentRequiredWithCallback:",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC21isPiplConsentRequired8callbackyySb_s5Error_pSgtc_tF",
+            "moduleName": "DeltaDNA",
+            "objc_name": "isPiplConsentRequiredWithCallback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPiplUseConsent",
+            "printedName": "setPiplUseConsent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)setPiplUseConsent:",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC17setPiplUseConsentyySbF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPiplExportConsent",
+            "printedName": "setPiplExportConsent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)setPiplExportConsent:",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC20setPiplExportConsentyySbF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allConsentsAreMet",
+            "printedName": "allConsentsAreMet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)allConsentsAreMet",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC17allConsentsAreMetSbyF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isConsentDenied",
+            "printedName": "isConsentDenied()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker(im)isConsentDenied",
+            "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC15isConsentDeniedSbyF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeltaDNA@objc(cs)DDNAConsentTracker",
+        "mangledName": "$s8DeltaDNA18DDNAConsentTrackerC",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDNAPinpointer",
+        "printedName": "DDNAPinpointer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAPinpointer",
+                "printedName": "DeltaDNA.DDNAPinpointer",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer(cpy)shared",
+            "mangledName": "$s8DeltaDNA14DDNAPinpointerC6sharedACvpZ",
+            "moduleName": "DeltaDNA",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DDNAPinpointer",
+                    "printedName": "DeltaDNA.DDNAPinpointer",
+                    "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer(cm)shared",
+                "mangledName": "$s8DeltaDNA14DDNAPinpointerC6sharedACvgZ",
+                "moduleName": "DeltaDNA",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "createSignalTrackingSessionEvent",
+            "printedName": "createSignalTrackingSessionEvent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAEvent",
+                "printedName": "DeltaDNA.DDNAEvent",
+                "usr": "c:objc(cs)DDNAEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer(im)createSignalTrackingSessionEvent",
+            "mangledName": "$s8DeltaDNA14DDNAPinpointerC32createSignalTrackingSessionEventSo9DDNAEventCyF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSignalTrackingInstallEvent",
+            "printedName": "createSignalTrackingInstallEvent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAEvent",
+                "printedName": "DeltaDNA.DDNAEvent",
+                "usr": "c:objc(cs)DDNAEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer(im)createSignalTrackingInstallEvent",
+            "mangledName": "$s8DeltaDNA14DDNAPinpointerC32createSignalTrackingInstallEventSo9DDNAEventCyF",
+            "moduleName": "DeltaDNA",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSignalTrackingPurchaseEvent",
+            "printedName": "createSignalTrackingPurchaseEvent(realCurrencyAmount:realCurrencyType:transactionID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAEvent",
+                "printedName": "DeltaDNA.DDNAEvent",
+                "usr": "c:objc(cs)DDNAEvent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer(im)createSignalTrackingPurchaseEventWithRealCurrencyAmount:realCurrencyType:transactionID:",
+            "mangledName": "$s8DeltaDNA14DDNAPinpointerC33createSignalTrackingPurchaseEvent18realCurrencyAmount0iJ4Type13transactionIDSo9DDNAEventCSo8NSNumberC_So8NSStringCAMtF",
+            "moduleName": "DeltaDNA",
+            "objc_name": "createSignalTrackingPurchaseEventWithRealCurrencyAmount:realCurrencyType:transactionID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeltaDNA@objc(cs)DDNAPinpointer",
+        "mangledName": "$s8DeltaDNA14DDNAPinpointerC",
+        "moduleName": "DeltaDNA",
+        "intro_iOS": "12.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GeoIpNetworkClient",
+        "printedName": "GeoIpNetworkClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GeoIpNetworkClient",
+                "printedName": "DeltaDNA.GeoIpNetworkClient",
+                "usr": "c:@M@DeltaDNA@objc(cs)GeoIpNetworkClient"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)GeoIpNetworkClient(im)init",
+            "mangledName": "$s8DeltaDNA18GeoIpNetworkClientCACycfc",
+            "moduleName": "DeltaDNA",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeltaDNA@objc(cs)GeoIpNetworkClient",
+        "mangledName": "$s8DeltaDNA18GeoIpNetworkClientC",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDNAExecutionCountTriggerCondition",
+        "printedName": "DDNAExecutionCountTriggerCondition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "canExecute",
+            "printedName": "canExecute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionCountTriggerCondition(im)canExecute",
+            "mangledName": "$s8DeltaDNA34DDNAExecutionCountTriggerConditionC10canExecuteSbyF",
+            "moduleName": "DeltaDNA",
+            "objc_name": "canExecute",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAExecutionCountTriggerCondition",
+                "printedName": "DeltaDNA.DDNAExecutionCountTriggerCondition",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionCountTriggerCondition"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionCountTriggerCondition(im)init",
+            "mangledName": "$s8DeltaDNA34DDNAExecutionCountTriggerConditionCACycfc",
+            "moduleName": "DeltaDNA",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeltaDNA@objc(cs)DDNAExecutionCountTriggerCondition",
+        "mangledName": "$s8DeltaDNA34DDNAExecutionCountTriggerConditionC",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DDNATriggerCondition",
+            "printedName": "DDNATriggerCondition",
+            "usr": "c:@M@DeltaDNA@objc(pl)DDNATriggerCondition",
+            "mangledName": "$s8DeltaDNA20DDNATriggerConditionP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDNATriggerCondition",
+        "printedName": "DDNATriggerCondition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "canExecute",
+            "printedName": "canExecute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(pl)DDNATriggerCondition(im)canExecute",
+            "mangledName": "$s8DeltaDNA20DDNATriggerConditionP10canExecuteSbyF",
+            "moduleName": "DeltaDNA",
+            "genericSig": "<τ_0_0 where τ_0_0 : DeltaDNA.DDNATriggerCondition>",
+            "sugared_genericSig": "<Self where Self : DeltaDNA.DDNATriggerCondition>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@DeltaDNA@objc(pl)DDNATriggerCondition",
+        "mangledName": "$s8DeltaDNA20DDNATriggerConditionP",
+        "moduleName": "DeltaDNA",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeltaDNA"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DDNATriggerConditionParser",
+        "printedName": "DDNATriggerConditionParser",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(metricStore:variantId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNATriggerConditionParser",
+                "printedName": "DeltaDNA.DDNATriggerConditionParser",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNATriggerConditionParser"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DDNAEventTriggeredCampaignMetricStore",
+                "printedName": "DeltaDNA.DDNAEventTriggeredCampaignMetricStore",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNAEventTriggeredCampaignMetricStore"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNATriggerConditionParser(im)initWithMetricStore:variantId:",
+            "mangledName": "$s8DeltaDNA26DDNATriggerConditionParserC11metricStore9variantIdAcA032DDNAEventTriggeredCampaignMetricG0C_Sutcfc",
+            "moduleName": "DeltaDNA",
+            "objc_name": "initWithMetricStore:variantId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "parse",
+            "printedName": "parse(fromJSON:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DeltaDNA.DDNATriggerCondition]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DDNATriggerCondition",
+                    "printedName": "DeltaDNA.DDNATriggerCondition",
+                    "usr": "c:@M@DeltaDNA@objc(pl)DDNATriggerCondition"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNATriggerConditionParser(im)parseFromJSON:",
+            "mangledName": "$s8DeltaDNA26DDNATriggerConditionParserC5parse8fromJSONSayAA0cD0_pGSo12NSDictionaryCSg_tF",
+            "moduleName": "DeltaDNA",
+            "objc_name": "parseFromJSON:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DDNATriggerConditionParser",
+                "printedName": "DeltaDNA.DDNATriggerConditionParser",
+                "usr": "c:@M@DeltaDNA@objc(cs)DDNATriggerConditionParser"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DeltaDNA@objc(cs)DDNATriggerConditionParser(im)init",
+            "mangledName": "$s8DeltaDNA26DDNATriggerConditionParserCACycfc",
+            "moduleName": "DeltaDNA",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DeltaDNA@objc(cs)DDNATriggerConditionParser",
+        "mangledName": "$s8DeltaDNA26DDNATriggerConditionParserC",
+        "moduleName": "DeltaDNA",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NWPathMonitor",
+        "printedName": "NWPathMonitor",
+        "declKind": "Class",
+        "usr": "s:7Network13NWPathMonitorC",
+        "mangledName": "$s7Network13NWPathMonitorC",
+        "moduleName": "Network",
+        "intro_Macosx": "10.14",
+        "intro_iOS": "12.0",
+        "intro_tvOS": "12.0",
+        "intro_watchOS": "5.0",
+        "declAttributes": [
+          "Final",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AsyncSequence",
+            "printedName": "AsyncSequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AsyncIterator",
+                "printedName": "AsyncIterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Network.NWPathMonitor.Iterator",
+                    "usr": "s:7Network13NWPathMonitorC8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NWPath",
+                    "printedName": "Network.NWPath",
+                    "usr": "s:7Network6NWPathV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sci",
+            "mangledName": "$sSci"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSession",
+        "printedName": "URLSession",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSession",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NWPath",
+        "printedName": "NWPath",
+        "declKind": "Struct",
+        "usr": "s:7Network6NWPathV",
+        "mangledName": "$s7Network6NWPathV",
+        "moduleName": "Network",
+        "intro_Macosx": "10.14",
+        "intro_iOS": "12.0",
+        "intro_tvOS": "12.0",
+        "intro_watchOS": "5.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAEventTriggeredCampaignMetricStore.swift",
+      "kind": "Dictionary",
+      "offset": 475,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAEventTriggeredCampaignMetricStore.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 19,
+      "value": "\"ddnaETCCountStore\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAEventTriggeredCampaignMetricStore.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 37,
+      "value": "\"DeltaDNA.DDNAEventTriggeredCampaignMetricStore\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAExecutionRepeatTriggerCondition.swift",
+      "kind": "StringLiteral",
+      "offset": 38,
+      "length": 35,
+      "value": "\"DeltaDNA.DDNAExecutionRepeatTriggerCondition\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 77,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 80,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 93,
+      "length": 20,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 115,
+      "length": 12,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 129,
+      "length": 13,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 77,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 80,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 93,
+      "length": 20,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 115,
+      "length": 12,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 129,
+      "length": 13,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 19,
+      "value": "\"ddnaPiplUseStatus\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 22,
+      "value": "\"ddnaPiplExportStatus\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/GeoIpNetworkClient.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 60,
+      "value": "\"https:\/\/pls.prd.mz.internal.unity3d.com\/api\/v1\/user-lookup\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/GeoIpNetworkClient.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 18,
+      "value": "\"DeltaDNA.GeoIpNetworkClient\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAExecutionCountTriggerCondition.swift",
+      "kind": "StringLiteral",
+      "offset": 38,
+      "length": 34,
+      "value": "\"DeltaDNA.DDNAExecutionCountTriggerCondition\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 63,
+      "length": 20,
+      "value": "\"unitySignalSession\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 103,
+      "length": 20,
+      "value": "\"unitySignalInstall\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 21,
+      "value": "\"unitySignalPurchase\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 63,
+      "length": 20,
+      "value": "\"unitySignalSession\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 103,
+      "length": 20,
+      "value": "\"unitySignalInstall\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 21,
+      "value": "\"unitySignalPurchase\""
+    },
+    {
+      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNATriggerConditionParser.swift",
+      "kind": "StringLiteral",
+      "offset": 38,
+      "length": 26,
+      "value": "\"DeltaDNA.DDNATriggerConditionParser\""
+    }
+  ]
+}
