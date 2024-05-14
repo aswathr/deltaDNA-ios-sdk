@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/deltaDNA/ios-sdk/releases/download/5.0.2/DeltaDNA-5.0.2.zip" }
 
   # Source Code 
-  spec.vendored_frameworks = 'build/Frameworks/DeltaDNA.xcframework'
+  spec.vendored_frameworks = 'build/Products/XCFramework/DeltaDNA.xcframework'
 
 end
