@@ -85,6 +85,7 @@ static NSString *const EP_KEY_SDK_VERSION = @"sdkVersion";
 
 static NSString *const DD_EVENT_STARTED = @"DDNASDKStarted";
 static NSString *const DD_EVENT_NEW_SESSION = @"DDNASDKNewSession";
+static NSNumber *const DD_EVENT_VERSION = @1;
 
 @implementation DDNATrackingSdk
 
@@ -230,6 +231,7 @@ static NSString *const DD_EVENT_NEW_SESSION = @"DDNASDKNewSession";
 
     NSMutableDictionary *eventSchema = [NSMutableDictionary dictionaryWithDictionary:[event dictionary]];
     [eventSchema setObject:self.sdk.userID forKey:@"userID"];
+    [eventSchema setObject:DD_EVENT_VERSION forKey:@"eventVersion"];
     [eventSchema setObject:self.sdk.sessionID forKey:@"sessionID"];
     [eventSchema setObject:[[NSUUID UUID] UUIDString] forKey:@"eventUUID"];
     [eventSchema setObject:[DDNAUtils getCurrentTimestamp] forKey:@"eventTimestamp"];
