@@ -223,7 +223,11 @@ static NSString *const DD_EVENT_NEW_SESSION = @"DDNASDKNewSession";
     
     [event setParam:self.sdk.platform forKey:@"platform"];
     [event setParam:DDNA_SDK_VERSION forKey:@"sdkVersion"];
-    
+    if (self.sdk.clientVersion != nil) {
+        [event setParam:self.sdk.clientVersion forKey:@"clientVersion"];
+    }
+    [event setParam:@"DDNA" forKey:@"sdkMethod"];
+
     NSMutableDictionary *eventSchema = [NSMutableDictionary dictionaryWithDictionary:[event dictionary]];
     [eventSchema setObject:self.sdk.userID forKey:@"userID"];
     [eventSchema setObject:self.sdk.sessionID forKey:@"sessionID"];

@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/DeltaDNA-Swift.h</key>
 		<data>
-		fLnXrHvC3dhG5Lc4jv17vGqmqTA=
+		WQBemSmC+NjUsnBXJ+4hYtBiImY=
 		</data>
 		<key>Headers/DeltaDNA.h</key>
 		<data>
@@ -66,47 +66,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MvUJHNJsrABN9d9K+A//NghhzPs=
+		+cUjFAjKZpk/UpQFrfCh/Pp3SM8=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		TQqORWp/X7RRK6if3JqsWfZ1/9U=
+		hFYau5/Z4e4eqxnhkDlG5f4NPhQ=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+WIZSgrrIV3HP6LM1KGst7Y6C0k=
+		TbkAV01SJgsf+HLnV9jFMifsS3s=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CficU9JlkSwxaLSi7Q2bE2ExsOo=
+		A3fAp1c7EkLlGgXP9V9s+KqqPeE=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+WIZSgrrIV3HP6LM1KGst7Y6C0k=
+		TbkAV01SJgsf+HLnV9jFMifsS3s=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S9+Hl6KSKcAcrQUwzMeStLdjSGc=
+		V8SApT37t36YUiqPEbJB5yzNx18=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		TQqORWp/X7RRK6if3JqsWfZ1/9U=
+		hFYau5/Z4e4eqxnhkDlG5f4NPhQ=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pdH3+5tI/Fq0ICTO24In0sA0lFo=
+		J3IDVhfy1lsMqGyiT1+/en4xUvc=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2MBgM3NlqHnnuwtmWJTmP/ojOW0=
+		DWNyEmKZph/b29ueCFxedkBLO/o=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pdH3+5tI/Fq0ICTO24In0sA0lFo=
+		J3IDVhfy1lsMqGyiT1+/en4xUvc=
 		</data>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TocisNn/QnnQbA6/RwkUsyxvXtM=
+		PNhkZeT5VKdqCwLY/pfSMj6Rnxw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -214,7 +214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			csDDGibuERS+WjBJ3PoEiae3QVc3T1I+uhpa7z0gWnA=
+			DpUEZHDMZoz9sSUbDrXzLKfd1Gu9cscGTLfYtrHIpiM=
 			</data>
 		</dict>
 		<key>Headers/DeltaDNA.h</key>
@@ -228,70 +228,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uw6mk5wO4RPqmGSdOjj8/x+4Ls2KNPugotucH/nde+8=
+			fyojjKwKzrV1S9UgBq7/Vm/EqIE82y+TPbmSMi5e3RA=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6ylkLuYGwlnhb6Ut6zXmVlXr6qlT5ydhm1Jr81X7cM=
+			+WPkOrWz99Y9/sSYTPqYBALjnYzU/w0LZ+9mNbYw2L0=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9FHtzS89+VkRAe6L5XcTpJ6fpd9EzTVJb6QSDOq4Vy8=
+			K9Z1u5SzCIwIhSEdRNDAtaYk8emv4tTDjA141DJnCk0=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6ylkLuYGwlnhb6Ut6zXmVlXr6qlT5ydhm1Jr81X7cM=
+			+WPkOrWz99Y9/sSYTPqYBALjnYzU/w0LZ+9mNbYw2L0=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eKrKya6lPj14F/X7BipQhVqKvevYu0Qa7VC6hvVAHnk=
+			bfxltMn1wTKKoOZLqp05IRz/34waDgTOhBc+lDmAlqk=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uw6mk5wO4RPqmGSdOjj8/x+4Ls2KNPugotucH/nde+8=
+			fyojjKwKzrV1S9UgBq7/Vm/EqIE82y+TPbmSMi5e3RA=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WliWK8KgG4D2MH729RNgMcVnJolLhGzpSULgXUem9oY=
+			PI5kmcB/JA6vso45621A5cTFHQ7y8t3J0rpfW9MUcUg=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOC6kIVaYvC4thndlmT0jE9WPxwYpYUIptVEWFIgSLI=
+			4GRL9r2EIV2tTa01IwcPOavuk/dxsH7ugXO9zjtGTy4=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WliWK8KgG4D2MH729RNgMcVnJolLhGzpSULgXUem9oY=
+			PI5kmcB/JA6vso45621A5cTFHQ7y8t3J0rpfW9MUcUg=
 			</data>
 		</dict>
 		<key>Modules/DeltaDNA.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nD3cnF96w++dgYtFcltY9vZhaTc7YI+NcPv8HINbAAg=
+			bILNq4RapZFwPJ9ItyaqhUK6HczHPcp2pmjy1istsgM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

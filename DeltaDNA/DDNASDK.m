@@ -119,7 +119,6 @@
         }
         
         [self handleEnvironmentChanges];
-        
         [self.impl startWithNewPlayer:self.userManager];
     }
 }

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "DeltaDNA",
+    "printedName": "DeltaDNA",
     "children": [
       {
         "kind": "Import",
@@ -239,6 +239,9 @@
             "moduleName": "DeltaDNA",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -280,6 +283,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -540,6 +557,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -671,6 +702,20 @@
             "printedName": "DDNATriggerCondition",
             "usr": "c:@M@DeltaDNA@objc(pl)DDNATriggerCondition",
             "mangledName": "$s8DeltaDNA20DDNATriggerConditionP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1025,6 +1070,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1312,7 +1371,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1322,7 +1381,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.Bool, Swift.Error?)",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1333,12 +1392,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -1474,6 +1533,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1706,6 +1779,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1808,6 +1895,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1944,6 +2045,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2047,6 +2162,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2104,12 +2235,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[DeltaDNA.DDNATriggerCondition]",
+                "printedName": "[any DeltaDNA.DDNATriggerCondition]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "DDNATriggerCondition",
-                    "printedName": "DeltaDNA.DDNATriggerCondition",
+                    "printedName": "any DeltaDNA.DDNATriggerCondition",
                     "usr": "c:@M@DeltaDNA@objc(pl)DDNATriggerCondition"
                   }
                 ],
@@ -2181,6 +2312,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2255,6 +2400,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -2297,10 +2456,30 @@
                     "usr": "s:7Network6NWPathV"
                   }
                 ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Failure",
+                "printedName": "Failure",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
               }
             ],
             "usr": "s:Sci",
             "mangledName": "$sSci"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2335,6 +2514,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2384,6 +2577,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2427,6 +2627,27 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }
@@ -2447,55 +2668,6 @@
       "offset": 625,
       "length": 19,
       "value": "\"ddnaETCCountStore\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAEventTriggeredCampaignMetricStore.swift",
-      "kind": "StringLiteral",
-      "offset": 218,
-      "length": 37,
-      "value": "\"DeltaDNA.DDNAEventTriggeredCampaignMetricStore\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAExecutionRepeatTriggerCondition.swift",
-      "kind": "StringLiteral",
-      "offset": 38,
-      "length": 35,
-      "value": "\"DeltaDNA.DDNAExecutionRepeatTriggerCondition\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 77,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 80,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 93,
-      "length": 20,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 115,
-      "length": 12,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 129,
-      "length": 13,
-      "value": "4"
     },
     {
       "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAConsentTracker.swift",
@@ -2554,20 +2726,6 @@
       "value": "\"https:\/\/pls.prd.mz.internal.unity3d.com\/api\/v1\/user-lookup\""
     },
     {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/GeoIpNetworkClient.swift",
-      "kind": "StringLiteral",
-      "offset": 531,
-      "length": 18,
-      "value": "\"DeltaDNA.GeoIpNetworkClient\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNAExecutionCountTriggerCondition.swift",
-      "kind": "StringLiteral",
-      "offset": 38,
-      "length": 34,
-      "value": "\"DeltaDNA.DDNAExecutionCountTriggerCondition\""
-    },
-    {
       "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
       "kind": "StringLiteral",
       "offset": 63,
@@ -2587,34 +2745,6 @@
       "offset": 144,
       "length": 21,
       "value": "\"unitySignalPurchase\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
-      "kind": "StringLiteral",
-      "offset": 63,
-      "length": 20,
-      "value": "\"unitySignalSession\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
-      "kind": "StringLiteral",
-      "offset": 103,
-      "length": 20,
-      "value": "\"unitySignalInstall\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/PinpointerEnums.swift",
-      "kind": "StringLiteral",
-      "offset": 144,
-      "length": 21,
-      "value": "\"unitySignalPurchase\""
-    },
-    {
-      "filePath": "\/Users\/aswath_narayanan\/Documents\/work\/ios-sdk\/DeltaDNA\/DDNATriggerConditionParser.swift",
-      "kind": "StringLiteral",
-      "offset": 38,
-      "length": 26,
-      "value": "\"DeltaDNA.DDNATriggerConditionParser\""
     }
   ]
 }
